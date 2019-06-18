@@ -14,70 +14,80 @@
 \newcommand{\dataApprovazione}{Data}
 
 % Dati dello Studente
-\newcommand{\nomeStudente}{Pinco}
-\newcommand{\cognomeStudente}{Pallino}
-\newcommand{\matricolaStudente}{1000000}
-\newcommand{\emailStudente}{mail@studenti.unipd.it}
-\newcommand{\telStudente}{+ 39 000 00 00 000}
+\newcommand{\nomeStudente}{Francesco}
+\newcommand{\cognomeStudente}{ Corti}
+\newcommand{\matricolaStudente}{1142525}
+\newcommand{\emailStudente}{francesco.corti@studenti.unipd.it}
+\newcommand{\telStudente}{+ 39 348 80 48 083}
 
 % Dati del Tutor Aziendale
-\newcommand{\nomeTutorAziendale}{nomeTutor}
-\newcommand{\cognomeTutorAziendale}{cognomeTutor}
-\newcommand{\emailTutorAziendale}{mail@mail.it}
-\newcommand{\telTutorAziendale}{+ 39 000 00 00 000}
+\newcommand{\nomeTutorAziendale}{Davide}
+\newcommand{\cognomeTutorAziendale}{Baldo}
+\newcommand{\emailTutorAziendale}{davide.baldo@zextras.com}
+\newcommand{\telTutorAziendale}{}
 \newcommand{\ruoloTutorAziendale}{}
 
-% Dati dell'Azienda
-\newcommand{\ragioneSocAzienda}{Azienda S.p.A}
-\newcommand{\indirizzoAzienda}{Via Roma 1, Roma (RM)}
-\newcommand{\sitoAzienda}{http://example.com/}
-\newcommand{\emailAzienda}{mail@mail.it}
-\newcommand{\partitaIVAAzienda}{P.IVA 12345678999}
+% Dati dell'Azienda sede legale
+\newcommand{\ragioneSocAzienda}{Zextras srl}
+\newcommand{\indirizzoAzienda}{Sede Legale: Piazza San Nazaro in Brolo 15, 20122 Milano}
+\newcommand{\sitoAzienda}{https://www.zextras.com/}
+\newcommand{\emailAzienda}{info@pec.zextras.com}
+\newcommand{\partitaIVAAzienda}{P.IVA: IT03695830244}
+\newcommand{\sedeOperativa}{Sede operativa:
+via dell'industria 8, 36040 Torri di Quartesolo (VI)}
 
 % Dati del Tutor Interno (Docente)
 \newcommand{\titoloTutorInterno}{Prof.}
-\newcommand{\nomeTutorInterno}{NomeDocente}
-\newcommand{\cognomeTutorInterno}{CognomeDocente}
+\newcommand{\nomeTutorInterno}{Davide}
+\newcommand{\cognomeTutorInterno}{Bresolin}
 
 \newcommand{\prospettoSettimanale}{
      % Personalizzare indicando in lista, i vari task settimana per settimana
      % sostituire a XX il totale ore della settimana
     \begin{itemize}
-        \item \textbf{Prima Settimana (XX ore)}
+        \item \textbf{Prima Settimana (40 ore)}
         \begin{itemize}
-            \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste
-            relativamente al sistema da sviluppare;
-            \item Verifica credenziali e strumenti di lavoro assegnati;
-            \item Presa visione dell’infrastruttura esistente;
-            \item Formazione sulle tecnologie adottate;
+            \item \textbf{Introduzione a Zextras};
+        	\item Cos’è Zimbra, cos’è Zextras; 
+        	\item Come sono organizzati i moduli del prodotto e come comunicano tra di loro.
         \end{itemize}
-        \item \textbf{Seconda Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Seconda Settimana (40 ore)} 
+        \begin{itemize}
+        	\item \textbf{Analisi dei competitor e definizione delle funzionalità};
+            \item Studio e benchmarking delle soluzioni sviluppate dai competitor;
+            \item Definire la lista delle funzionalità che si
+andranno ad implementare e la relativa UX.
+        \end{itemize}
+        \item \textbf{Terza Settimana (40 ore)} 
+        \begin{itemize}
+        	\item \textbf{Definizione API e implementazione API};
+            \item Definire il set di API necessario per lo sviluppo dell’applicativo e verificarne la presenza;
+            \item Procedere all’implementazione, se necessario, delle API mancanti.
+        \end{itemize}
+        \item \textbf{Quarta Settimana -  (40 ore)} 
+        \begin{itemize}
+            \item Realizzazione di alcuni proof of concept con diverse tecnologie;
+            \item Decisione del framework da adottare per lo sviluppo dell’applicativo.
+        \end{itemize}
+        \item \textbf{Quinta Settimana (40 ore)} 
+        \begin{itemize}
+        	\item \textbf{Sviluppo dell’applicativo e realizzazione test};
+            \item ;
+        \end{itemize}
+        \item \textbf{Sesta Settimana (40 ore)} 
+        \begin{itemize}        	
+            \item ;
+        \end{itemize}
+        \item \textbf{Settima Settimana (40 ore)} 
         \begin{itemize}
             \item ;
         \end{itemize}
-        \item \textbf{Terza Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Ottava Settimana - Pacchettizzazione e presentazione dei risultati (40 ore)} 
         \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Quarta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Quinta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Sesta Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Settima Settimana - Sottotitolo (XX ore)} 
-        \begin{itemize}
-            \item ;
-        \end{itemize}
-        \item \textbf{Ottava Settimana - Conclusione (XX ore)} 
-        \begin{itemize}
-            \item ;
+            \item Preparazione di un pacchetto di installazione;
+            \item Test manuali end2end in ambiente
+controllato;
+			\item Presentazione della soluzione al management aziendale.
         \end{itemize}
     \end{itemize}
 }
